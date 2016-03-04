@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.optimus.blooddonation.MainActivity"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_margin="8dp"
+        android:src="@drawable/blood3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        />
+
+    <Button
+        android:background="@drawable/ovalbutton"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:text="BE A DONOR"
+        android:id="@+id/new_donor"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/ovalbutton"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:text="NEED A DONOR"
+        android:id="@+id/donor_list"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_weight="0.07"
+        android:layout_margin="7dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="94dp"
+        android:layout_height="32dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ovalbutton"
+        android:text="about us"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>

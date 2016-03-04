@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Blood Donation</string>
+    <string name="title_activity_donor__list_">Donor_List_Activity</string>
+</resources>

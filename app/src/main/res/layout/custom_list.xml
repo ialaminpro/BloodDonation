@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:weightSum="1"
+    android:background="@drawable/ovallist">
+
+    <ImageView
+        android:id="@+id/blood_icon"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/images"
+        android:layout_weight="0.27"
+        android:layout_gravity="left" />
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/blood_icon"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:orientation="vertical"
+        android:layout_weight="0.19">
+
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:id="@+id/donor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="Donor Name"
+            android:textSize="19dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/donor_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/donor_name"
+            android:text="location"
+            android:layout_marginLeft="4dp"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="45dp"
+        android:layout_height="55dp"
+        android:src="@drawable/phone_icon"
+        android:paddingRight="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.19" />
+
+
+
+</LinearLayout>
